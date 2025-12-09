@@ -1,0 +1,133 @@
+*.sqlite*
+/db.sqlite3
+/database.sqlite3
+/database.sqlite
+/database-*.sqlite
+
+# Ignore database backups
+*.sql.gz
+*.sql.bz2
+*.sql.zip
+*.dump  
+
+# Ignore database migration files
+/migrations/*.py
+/migrations/*.sql
+
+# Ignore database configuration files
+*.conf
+*.ini
+*.cfg
+*.env
+/database.env
+# Ignore temporary database files
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*.swo   
+
+# Ignore database logs
+
+*.log
+*.err
+*.out   
+
+# Ignore database cache files
+*.cache
+*.cache.*
+*.dbcache
+*.dbtmp     
+# Ignore database lock files
+*.lock
+*.lck
+*.flock
+*.dbflock
+*.pid
+*.sock
+*.socket    
+/node_modules/
+/venv/
+/.env
+/.env.local
+/.env.development
+/.env.test
+/.env.production
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.err
+*.out
+*.cache
+*.dbcache
+*.dbtmp
+*.lock
+*.lck
+*.flock
+*.dbflock
+*.pid
+*.sock
+*.socket
+.DS_Store
+.idea/
+.vscode/
+*.sqlite-journal    
+*.sqlite-shm
+*.sqlite-wal
+
+# Ignore database dump files
+*.sql
+*.dump
+*.bak
+*.old
+*.sql.gz
+*.sql.bz2
+*.sql.zip
+*.dump  
+# Ignore database migration files
+/migrations/*.py
+/migrations/*.sql   
+
+# Ignore database configuration files
+*.conf
+*.ini
+*.cfg
+*.env
+/database.env       
+# Ignore temporary database files
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*.swo
+
+# Ignore database logs
+*.log
+*.err
+*.out
+
+# Ignore database cache files
+*.cache
+*.cache.*
+*.dbcache
+*.dbtmp
+
+# Ignore database lock files
+*.lock
+*.lck
+*.flock
+*.dbflock
+*.pid
+*.sock
+*.socket
+
+/node_modules/
+/public/
